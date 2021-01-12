@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mr6272.github.io</id>
     <title>Mora的博客</title>
-    <updated>2021-01-12T04:25:51.061Z</updated>
+    <updated>2021-01-12T09:38:00.902Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mr6272.github.io"/>
     <link rel="self" href="https://Mr6272.github.io/atom.xml"/>
@@ -11,7 +11,47 @@
     <icon>https://Mr6272.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Mora的博客</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <title type="html"><![CDATA[JavaScript创建对象的一点体会]]></title>
+        <id>https://Mr6272.github.io/post/javascript-chuang-jian-dui-xiang-de-yi-dian-ti-hui/</id>
+        <link href="https://Mr6272.github.io/post/javascript-chuang-jian-dui-xiang-de-yi-dian-ti-hui/">
+        </link>
+        <updated>2021-01-12T09:21:21.000Z</updated>
+        <content type="html"><![CDATA[<p>JS创建对象的形式有很多，在一般的情况下，你可以通过var 对象={属性名:属性值,属性名:属性值};来创建一个对象。<br>
+也也可以通过var obj=new Object();obj.name=xiaolv;创建对象。<br>
+另外，你甚至可以使用工厂方法，就比如：<br>
+var obj=myobj();<br>
+function myobj(name,age,gender)={<br>
+var obj=new Object();<br>
+obj.name=name;<br>
+obj.age=age;<br>
+obj.gender=gender;<br>
+return obj;<br>
+}<br>
+该方法使用了构造函数object。</p>
+<p>待续。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于我]]></title>
+        <id>https://Mr6272.github.io/post/about/</id>
+        <link href="https://Mr6272.github.io/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<p>本站是我兴趣使然的小站，里面可以记录我的日志、心得和趣闻。</p>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>我是Mora，心怀梦想的大学生。</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<p>什么都想学习，什么都想尝试。</p>
+<h2 id="联系我呀">📬 联系我呀</h2>
+<p>微信mora1898。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于 Gridea]]></title>
         <id>https://Mr6272.github.io/post/hello-gridea/</id>
         <link href="https://Mr6272.github.io/post/hello-gridea/">
         </link>
