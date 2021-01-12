@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Mr6272.github.io</id>
     <title>Mora的博客</title>
-    <updated>2021-01-12T09:38:00.902Z</updated>
+    <updated>2021-01-12T09:48:19.190Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Mr6272.github.io"/>
     <link rel="self" href="https://Mr6272.github.io/atom.xml"/>
@@ -28,7 +28,8 @@ obj.gender=gender;<br>
 return obj;<br>
 }<br>
 该方法使用了构造函数object。</p>
-<p>待续。</p>
+<p>也可自行创建构造函数，使用Function+函数名即可创建。<br>
+待续。</p>
 ]]></content>
     </entry>
     <entry>
